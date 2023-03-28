@@ -1,0 +1,393 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "third_party",
+					"childIndexes" : 
+					[
+						3,
+						7,
+						8,
+						10,
+						11,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party-Debug-9b836fc236528aa76e21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party"
+				},
+				{
+					"build" : "third_party/assimp",
+					"childIndexes" : 
+					[
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.assimp-Debug-3329792313cdf5810be1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "third_party/assimp",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "third_party/assimp/contrib",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.assimp.contrib-Debug-9d3a92add830f80a588d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "third_party/assimp/contrib"
+				},
+				{
+					"build" : "third_party/assimp/contrib/irrXML",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.assimp.contrib.irrXML-Debug-1c604f391ebfabbde4c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "third_party/assimp/contrib/irrXML",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "third_party/assimp/code",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.assimp.code-Debug-ef39a31bc44d8ceca7aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "third_party/assimp/code",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "third_party/glew",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.glew-Debug-1905826aae68b07d1ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "third_party/glew",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "third_party/glm",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-third_party.glm-Debug-306637177dafa886145c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "third_party/glm"
+				},
+				{
+					"build" : "third_party/glm/glm",
+					"jsonFile" : "directory-third_party.glm.glm-Debug-8a69d5d5da06fecdec1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 3,
+					"source" : "third_party/glm/glm"
+				},
+				{
+					"build" : "third_party/stb",
+					"jsonFile" : "directory-third_party.stb-Debug-d09ab30be68f2bd3ad4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "third_party/stb",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "third_party/glfw",
+					"childIndexes" : 
+					[
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.glfw-Debug-e893f1e9bcf85ece07a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "third_party/glfw"
+				},
+				{
+					"build" : "third_party/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party.glfw.src-Debug-3b5f53960946b25c293e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 4,
+					"source" : "third_party/glfw/src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "third_party/imgui",
+					"jsonFile" : "directory-third_party.imgui-Debug-c4a09d42fe1a69797dce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "third_party/imgui",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						10,
+						13
+					],
+					"name" : "Hand",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Assimp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8,
+						9
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Hand::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Hand-Debug-d0407afcc1fffe254a9d.json",
+					"name" : "Hand",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "IrrXML::@9870f516fc688440b72b",
+					"jsonFile" : "target-IrrXML-Debug-ac667dd4ab91e7c62c05.json",
+					"name" : "IrrXML",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "assimp::@e69262fcfcaaf4b4e91a",
+					"jsonFile" : "target-assimp-Debug-fe417b536514c7508611.json",
+					"name" : "assimp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glew::@2b454ed9ff15f1c897f1",
+					"jsonFile" : "target-glew-Debug-c3875036cb8db832fa1b.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glew_s::@2b454ed9ff15f1c897f1",
+					"jsonFile" : "target-glew_s-Debug-32204f1f97f6040cff40.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glfw::@d5fdcda1ec52eb23cf38",
+					"jsonFile" : "target-glfw-Debug-e4e27fe5ba7ae4b00c9d.json",
+					"name" : "glfw",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "imgui::@0bd0160a8608684c225b",
+					"jsonFile" : "target-imgui-Debug-4d9254c0c6de68fbf74c.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "stb::@f2aa1405f3c1fba9b97b",
+					"jsonFile" : "target-stb-Debug-b66b93629112cbf6b2b8.json",
+					"name" : "stb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@feeb97b22e21002de3bb",
+					"jsonFile" : "target-uninstall-Debug-2de67b244e5e8102bf67.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/build",
+		"source" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

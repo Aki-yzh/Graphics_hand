@@ -1,0 +1,159 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"third_party/assimp/code/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 777,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 784,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 785,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third_party/assimp/code/libassimpd.a"
+			],
+			"targetId" : "assimp::@e69262fcfcaaf4b4e91a",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "assimp-dev",
+			"destination" : "include/assimp",
+			"paths" : 
+			[
+				"third_party/assimp/code/../include/assimp/anim.h",
+				"third_party/assimp/code/../include/assimp/aabb.h",
+				"third_party/assimp/code/../include/assimp/ai_assert.h",
+				"third_party/assimp/code/../include/assimp/camera.h",
+				"third_party/assimp/code/../include/assimp/color4.h",
+				"third_party/assimp/code/../include/assimp/color4.inl",
+				"build/third_party/assimp/code/../include/assimp/config.h",
+				"third_party/assimp/code/../include/assimp/defs.h",
+				"third_party/assimp/code/../include/assimp/Defines.h",
+				"third_party/assimp/code/../include/assimp/cfileio.h",
+				"third_party/assimp/code/../include/assimp/light.h",
+				"third_party/assimp/code/../include/assimp/material.h",
+				"third_party/assimp/code/../include/assimp/material.inl",
+				"third_party/assimp/code/../include/assimp/matrix3x3.h",
+				"third_party/assimp/code/../include/assimp/matrix3x3.inl",
+				"third_party/assimp/code/../include/assimp/matrix4x4.h",
+				"third_party/assimp/code/../include/assimp/matrix4x4.inl",
+				"third_party/assimp/code/../include/assimp/mesh.h",
+				"third_party/assimp/code/../include/assimp/pbrmaterial.h",
+				"third_party/assimp/code/../include/assimp/postprocess.h",
+				"third_party/assimp/code/../include/assimp/quaternion.h",
+				"third_party/assimp/code/../include/assimp/quaternion.inl",
+				"third_party/assimp/code/../include/assimp/scene.h",
+				"third_party/assimp/code/../include/assimp/metadata.h",
+				"third_party/assimp/code/../include/assimp/texture.h",
+				"third_party/assimp/code/../include/assimp/types.h",
+				"third_party/assimp/code/../include/assimp/vector2.h",
+				"third_party/assimp/code/../include/assimp/vector2.inl",
+				"third_party/assimp/code/../include/assimp/vector3.h",
+				"third_party/assimp/code/../include/assimp/vector3.inl",
+				"third_party/assimp/code/../include/assimp/version.h",
+				"third_party/assimp/code/../include/assimp/cimport.h",
+				"third_party/assimp/code/../include/assimp/importerdesc.h",
+				"third_party/assimp/code/../include/assimp/Importer.hpp",
+				"third_party/assimp/code/../include/assimp/DefaultLogger.hpp",
+				"third_party/assimp/code/../include/assimp/ProgressHandler.hpp",
+				"third_party/assimp/code/../include/assimp/IOStream.hpp",
+				"third_party/assimp/code/../include/assimp/IOSystem.hpp",
+				"third_party/assimp/code/../include/assimp/Logger.hpp",
+				"third_party/assimp/code/../include/assimp/LogStream.hpp",
+				"third_party/assimp/code/../include/assimp/NullLogger.hpp",
+				"third_party/assimp/code/../include/assimp/cexport.h",
+				"third_party/assimp/code/../include/assimp/Exporter.hpp",
+				"third_party/assimp/code/../include/assimp/DefaultIOStream.h",
+				"third_party/assimp/code/../include/assimp/DefaultIOSystem.h",
+				"third_party/assimp/code/../include/assimp/ZipArchiveIOSystem.h",
+				"third_party/assimp/code/../include/assimp/SceneCombiner.h",
+				"third_party/assimp/code/../include/assimp/fast_atof.h",
+				"third_party/assimp/code/../include/assimp/qnan.h",
+				"third_party/assimp/code/../include/assimp/BaseImporter.h",
+				"third_party/assimp/code/../include/assimp/Hash.h",
+				"third_party/assimp/code/../include/assimp/MemoryIOWrapper.h",
+				"third_party/assimp/code/../include/assimp/ParsingUtils.h",
+				"third_party/assimp/code/../include/assimp/StreamReader.h",
+				"third_party/assimp/code/../include/assimp/StreamWriter.h",
+				"third_party/assimp/code/../include/assimp/StringComparison.h",
+				"third_party/assimp/code/../include/assimp/StringUtils.h",
+				"third_party/assimp/code/../include/assimp/SGSpatialSort.h",
+				"third_party/assimp/code/../include/assimp/GenericProperty.h",
+				"third_party/assimp/code/../include/assimp/SpatialSort.h",
+				"third_party/assimp/code/../include/assimp/SkeletonMeshBuilder.h",
+				"third_party/assimp/code/../include/assimp/SmoothingGroups.h",
+				"third_party/assimp/code/../include/assimp/SmoothingGroups.inl",
+				"third_party/assimp/code/../include/assimp/StandardShapes.h",
+				"third_party/assimp/code/../include/assimp/RemoveComments.h",
+				"third_party/assimp/code/../include/assimp/Subdivision.h",
+				"third_party/assimp/code/../include/assimp/Vertex.h",
+				"third_party/assimp/code/../include/assimp/LineSplitter.h",
+				"third_party/assimp/code/../include/assimp/TinyFormatter.h",
+				"third_party/assimp/code/../include/assimp/Profiler.h",
+				"third_party/assimp/code/../include/assimp/LogAux.h",
+				"third_party/assimp/code/../include/assimp/Bitmap.h",
+				"third_party/assimp/code/../include/assimp/XMLTools.h",
+				"third_party/assimp/code/../include/assimp/IOStreamBuffer.h",
+				"third_party/assimp/code/../include/assimp/CreateAnimMesh.h",
+				"third_party/assimp/code/../include/assimp/irrXMLWrapper.h",
+				"third_party/assimp/code/../include/assimp/BlobIOSystem.h",
+				"third_party/assimp/code/../include/assimp/MathFunctions.h",
+				"third_party/assimp/code/../include/assimp/Macros.h",
+				"third_party/assimp/code/../include/assimp/Exceptional.h",
+				"third_party/assimp/code/../include/assimp/ByteSwapper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "assimp-dev",
+			"destination" : "include/assimp/Compiler",
+			"paths" : 
+			[
+				"third_party/assimp/code/../include/assimp/Compiler/pushpack1.h",
+				"third_party/assimp/code/../include/assimp/Compiler/poppack1.h",
+				"third_party/assimp/code/../include/assimp/Compiler/pstdint.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third_party/assimp/code",
+		"source" : "third_party/assimp/code"
+	}
+}

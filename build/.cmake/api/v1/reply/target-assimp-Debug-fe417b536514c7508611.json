@@ -1,0 +1,2134 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "third_party/assimp/code/libassimpd.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"INSTALL",
+			"TARGET_LINK_LIBRARIES",
+			"ADD_DEFINITIONS",
+			"add_compile_definitions",
+			"INCLUDE_DIRECTORIES",
+			"TARGET_INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"third_party/assimp/code/CMakeLists.txt",
+			"third_party/assimp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 647,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 777,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 670,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 582,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 542,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 475,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 456,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 485,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 633,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 210,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 570,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 571,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 594,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 636,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 650,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 758,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fvisibility=hidden -fno-strict-aliasing -Wall -Wno-long-long -fPIC -std=c++11  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ASSIMP_BUILD_DLL_EXPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ASSIMP_BUILD_NO_C4D_IMPORTER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ASSIMP_BUILD_NO_EXPORT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ASSIMP_BUILD_NO_OWN_ZLIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "OPENDDLPARSER_BUILD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/build/third_party/assimp/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/build/third_party/assimp"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/."
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib/unzip"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/contrib/irrXML"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib/openddlparser/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/build/third_party/assimp/code/../include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/.."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				8,
+				9,
+				11,
+				12,
+				13,
+				15,
+				17,
+				18,
+				20,
+				21,
+				22,
+				24,
+				25,
+				27,
+				28,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				37,
+				43,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				97,
+				98,
+				100,
+				102,
+				104,
+				107,
+				108,
+				110,
+				113,
+				115,
+				119,
+				121,
+				123,
+				125,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				142,
+				146,
+				147,
+				149,
+				151,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-strict-aliasing -fPIC  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ASSIMP_BUILD_DLL_EXPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ASSIMP_BUILD_NO_C4D_IMPORTER"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ASSIMP_BUILD_NO_EXPORT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ASSIMP_BUILD_NO_OWN_ZLIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "OPENDDLPARSER_BUILD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/build/third_party/assimp/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/build/third_party/assimp"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/."
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib/rapidjson/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib/unzip"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/contrib/irrXML"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../contrib/openddlparser/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/../include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/build/third_party/assimp/code/../include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/zhehuiyin/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/third_party/assimp/code/.."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				138,
+				140,
+				169
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "IrrXML::@9870f516fc688440b72b"
+		}
+	],
+	"id" : "assimp::@e69262fcfcaaf4b4e91a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "assimp",
+	"nameOnDisk" : "libassimpd.a",
+	"paths" : 
+	{
+		"build" : "third_party/assimp/code",
+		"source" : "third_party/assimp/code"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CApi",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Common",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37
+			]
+		},
+		{
+			"name" : "Logging",
+			"sourceIndexes" : 
+			[
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		},
+		{
+			"name" : "PostProcessing",
+			"sourceIndexes" : 
+			[
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103
+			]
+		},
+		{
+			"name" : "MaterialSystem",
+			"sourceIndexes" : 
+			[
+				104,
+				105
+			]
+		},
+		{
+			"name" : "STEPParser",
+			"sourceIndexes" : 
+			[
+				106,
+				107,
+				108,
+				109
+			]
+		},
+		{
+			"name" : "FBX",
+			"sourceIndexes" : 
+			[
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135
+			]
+		},
+		{
+			"name" : "IrrXML",
+			"sourceIndexes" : 
+			[
+				136
+			]
+		},
+		{
+			"name" : "Contrib\\unzip",
+			"sourceIndexes" : 
+			[
+				137,
+				138,
+				139,
+				140,
+				141
+			]
+		},
+		{
+			"name" : "Contrib\\Poly2Tri",
+			"sourceIndexes" : 
+			[
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152
+			]
+		},
+		{
+			"name" : "Contrib\\Clipper",
+			"sourceIndexes" : 
+			[
+				153,
+				154
+			]
+		},
+		{
+			"name" : "Contrib\\openddl_parser",
+			"sourceIndexes" : 
+			[
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167
+			]
+		},
+		{
+			"name" : "ziplib",
+			"sourceIndexes" : 
+			[
+				168,
+				169,
+				170
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246
+			]
+		},
+		{
+			"name" : "Compiler",
+			"sourceIndexes" : 
+			[
+				247,
+				248,
+				249
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/Assimp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/CApi/CInterfaceIOWrapper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/CApi/CInterfaceIOWrapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/BaseImporter.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/BaseProcess.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/BaseProcess.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/Importer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/ScenePrivate.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/PostStepRegistry.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/ImporterRegistry.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/DefaultProgressHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/DefaultIOStream.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/DefaultIOSystem.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/ZipArchiveIOSystem.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/PolyTools.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/Importer.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/IFF.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/SGSpatialSort.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/VertexTriangleAdjacency.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/VertexTriangleAdjacency.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/SpatialSort.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/SceneCombiner.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/ScenePreprocessor.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/ScenePreprocessor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/SkeletonMeshBuilder.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/SplitByBoneCountProcess.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/SplitByBoneCountProcess.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/StandardShapes.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/TargetAnimation.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/TargetAnimation.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/RemoveComments.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/Subdivision.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/scene.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/Bitmap.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/Version.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/CreateAnimMesh.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/simd.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/simd.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/DefaultLogger.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/LogStream.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Logger.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/NullLogger.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/Win32DebugLogStream.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Common/DefaultLogger.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/FileLogStream.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Common/StdOStreamLogStream.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/CalcTangentsProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/CalcTangentsProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/ComputeUVMappingProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/ComputeUVMappingProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/ConvertToLHProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/ConvertToLHProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/EmbedTexturesProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/EmbedTexturesProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/FindDegenerates.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/FindDegenerates.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/FindInstancesProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/FindInstancesProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/FindInvalidDataProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/FindInvalidDataProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/FixNormalsStep.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/FixNormalsStep.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/DropFaceNormalsProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/DropFaceNormalsProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/GenFaceNormalsProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/GenFaceNormalsProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/GenVertexNormalsProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/GenVertexNormalsProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/PretransformVertices.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/PretransformVertices.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/ImproveCacheLocality.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/ImproveCacheLocality.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/JoinVerticesProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/JoinVerticesProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/LimitBoneWeightsProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/LimitBoneWeightsProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/RemoveRedundantMaterials.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/RemoveRedundantMaterials.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/RemoveVCProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/RemoveVCProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/SortByPTypeProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/SortByPTypeProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/SplitLargeMeshes.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/SplitLargeMeshes.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/TextureTransform.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/TextureTransform.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/TriangulateProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/TriangulateProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/ValidateDataStructure.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/ValidateDataStructure.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/OptimizeGraph.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/OptimizeGraph.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/OptimizeMeshes.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/OptimizeMeshes.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/DeboneProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/DeboneProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/ProcessHelper.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/ProcessHelper.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/MakeVerboseFormat.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/MakeVerboseFormat.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/ScaleProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/ScaleProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/PostProcessing/GenBoundingBoxesProcess.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/PostProcessing/GenBoundingBoxesProcess.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Material/MaterialSystem.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Material/MaterialSystem.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Importer/STEPParser/STEPFileReader.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Importer/STEPParser/STEPFileReader.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/Importer/STEPParser/STEPFileEncoding.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/Importer/STEPParser/STEPFileEncoding.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXImporter.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXCompileConfig.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXImporter.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXParser.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXParser.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXTokenizer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXTokenizer.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXImportSettings.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXConverter.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXConverter.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXUtil.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXUtil.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXDocument.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXDocument.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXProperties.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXProperties.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXMeshGeometry.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXMeshGeometry.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXMaterial.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXModel.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXAnimation.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXNodeAttribute.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXDeformer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXBinaryTokenizer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/code/FBX/FBXDocumentUtil.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/code/FBX/FBXCommon.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/irrXMLWrapper.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/unzip/crypt.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/assimp/contrib/unzip/ioapi.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/unzip/ioapi.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/assimp/contrib/unzip/unzip.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/unzip/unzip.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/common/shapes.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/common/shapes.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/common/utils.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/clipper/clipper.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/clipper/clipper.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/openddlparser/code/OpenDDLParser.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/openddlparser/code/DDLNode.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/openddlparser/code/OpenDDLCommon.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/openddlparser/code/OpenDDLExport.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/openddlparser/code/Value.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/assimp/contrib/openddlparser/code/OpenDDLStream.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParser.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLCommon.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLExport.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLStream.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/openddlparser/include/openddlparser/DDLNode.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/openddlparser/include/openddlparser/Value.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/zip/src/miniz.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/assimp/contrib/zip/src/zip.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/contrib/zip/src/zip.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/anim.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/aabb.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/ai_assert.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/camera.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/color4.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/color4.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/third_party/assimp/include/assimp/config.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/defs.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Defines.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/cfileio.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/light.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/material.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/material.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/matrix3x3.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/matrix3x3.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/matrix4x4.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/matrix4x4.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/mesh.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/pbrmaterial.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/postprocess.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/quaternion.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/quaternion.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/scene.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/metadata.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/texture.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/types.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/vector2.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/vector2.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/vector3.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/vector3.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/version.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/cimport.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/importerdesc.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Importer.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/ProgressHandler.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/IOStream.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/IOSystem.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/cexport.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Exporter.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/DefaultIOStream.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/DefaultIOSystem.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/ZipArchiveIOSystem.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/SceneCombiner.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/fast_atof.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/qnan.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/BaseImporter.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Hash.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/MemoryIOWrapper.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/ParsingUtils.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/StreamReader.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/StreamWriter.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/StringComparison.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/StringUtils.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/SGSpatialSort.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/GenericProperty.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/SpatialSort.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/SkeletonMeshBuilder.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/SmoothingGroups.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/SmoothingGroups.inl",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/StandardShapes.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/RemoveComments.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Subdivision.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Vertex.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/LineSplitter.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/TinyFormatter.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Profiler.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/LogAux.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Bitmap.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/XMLTools.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/IOStreamBuffer.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/CreateAnimMesh.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/BlobIOSystem.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/MathFunctions.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Macros.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Exceptional.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/ByteSwapper.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Compiler/pushpack1.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Compiler/poppack1.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/assimp/include/assimp/Compiler/pstdint.h",
+			"sourceGroupIndex" : 15
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
